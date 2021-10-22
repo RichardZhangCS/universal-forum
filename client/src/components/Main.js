@@ -1,7 +1,7 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
 import MostRecentSection from './MostRecentSection';
-function Main(props) {
+function Homepage(props) {
 
     return (
         <main>
@@ -31,4 +31,4 @@ function Main(props) {
         </main>
     )
 }
-export default Main;
+export default Homepage;

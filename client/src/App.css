@@ -36,5 +36,8 @@
     transform: rotate(360deg);
   }
 }
-.post {
+body::before {
+  height: 50px;
+  display: block;
+  content: "";
 }
