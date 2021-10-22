@@ -3,7 +3,7 @@ import { Accordion, Card } from 'react-bootstrap';
 function AboutPage(props) {
 
     return (
-        <>
+        <main>
             <section className="description bg-primary text-light">
                 <Container className="py-4">
                     <h2>The Why Behind This Project</h2>
@@ -54,7 +54,7 @@ function AboutPage(props) {
                     </Accordion>
             </Container>
             </section>
-        </>
+        </main>
     )
 }
 export default AboutPage;
